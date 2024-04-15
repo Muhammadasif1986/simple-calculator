@@ -1,8 +1,12 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 let answers = await inquirer.prompt([
-    { message: 'Enter First Number', type: 'number', name: 'firstNumber' },
-    { message: 'Enter Second Number', type: 'number', name: 'secondNumber' },
+    { message: 'Enter First Number',
+        type: 'number',
+        name: 'firstNumber' },
+    { message: 'Enter Second Number',
+        type: 'number',
+        name: 'secondNumber' },
     {
         message: 'select one operator to perform operation',
         type: 'list',
